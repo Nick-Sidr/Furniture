@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../public/assets/fonts/helvetica-neue-regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../public/assets/fonts/helvetica-neue-medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("../public/assets/fonts/helvetica-neue-bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@theme{
+    --color-main-700: rgba(65, 91, 231, 1);
+    --color-main-200: rgba(65, 91, 231, 0.06);
+    --color-stroke-700: rgba(219, 221, 227, 1);
+    --color-bg-200: rgba(249, 249, 251, 1);
+    --color-hover-700: rgba(47, 69, 185, 1);
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furniture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="box-border font-[Helvetica]">
+<header class="flex flex-col gap-3 bg-white p-5 md:flex-row
+md:justify-between md:items-center
+xl:px-20">
+    <section>
+        <img src="/assets/images/logo.png" alt="logo" class="max-w-full h-auto">
+    </section>
+    <section class="flex items-center justify-start gap-2 py-1.25 ">
+        <figure class="flex items-center justify-between gap-2">
+            <section class=" group rounded-full p-1.5 bg-main-200 border border-stroke-700 hover:bg-main-700 transition-colors duration-200 ">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-hover:hidden">
+                    <path d="M16.6666 5L7.49992 14.1667L3.33325 10" stroke="#415BE7" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <section class="hidden group-hover:flex items-center justify-center w-5 h-5 rounded-full bg-main-700 text-white text-sm font-bold leading-none">
+                    1
+                </section>
+            </section>
+            <section class="text-base font-normal">
+                Cart
+            </section>
+        </figure>
+        <figure class=" block w-2 h-px bg-[#DBDDE3] md:w-12 "> &nbsp;</figure>
+        <figure class="flex items-center justify-between gap-2">
+            <section class="group rounded-full p-1.5 bg-main-200 border border-stroke-700 hover:bg-main-700 transition-colors duration-200 ">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-hover:hidden">
+                    <path d="M16.6666 5L7.49992 14.1667L3.33325 10" stroke="#415BE7" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <section class="hidden group-hover:flex items-center justify-center w-5 h-5 rounded-full bg-main-700 text-white text-sm font-bold leading-none">
+                    2
+                </section>
+            </section>
+            <section class="text-base font-normal ">
+                Review
+            </section>
+        </figure>
+        <figure class=" block w-2 h-px bg-[#DBDDE3] md:w-12"> &nbsp;</figure>
+        <figure class="flex items-center justify-between gap-2">
+            <section class="flex items-center justify-center w-8 h-8 rounded-full bg-main-700 text-white text-sm font-bold leading-none">
+                3
+            </section>
+            <section class="text-base font-normal">
+                Checkout
+            </section>
+        </figure>
+    </section>
+</header>
+
+<main class="flex flex-col gap-10 px-5 pt-10 pb-31 bg-bg-200
+md:pt-13.5 md:pl-3.75 md:pb-12.5
+xl:flex-row xl:items-center xl:gap-20 xl:pt-10 xl:px-20 xl:pb-16">
+    <section class="flex flex-col gap-7 max-w-2xl">
+        <h2 class="font-bold text-[32px] leading-none">
+            Checkout
+        </h2>
+        <section class="font-bold text-xl leading-none">Shipping Information</section>
+        <form action="#" class="flex flex-col gap-5 font-medium text-base leading-none xl:gap-6">
+            <label class="flex flex-col gap-2 ">
+                <span class="after:content-['*'] after:ml-1 after:text-red-500">Full name</span>
+                <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600"
+                       placeholder="Enter full name">
+            </label>
+            <label class=" flex flex-col gap-2">
+                <span class="after:content-['*'] after:ml-1 after:text-red-500">Email address</span>
+                <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600"
+                       placeholder="Enter email address">
+            </label>
+            <label class="flex flex-col gap-2 ">
+                <span class="after:content-['*'] after:ml-1 after:text-red-500">Phone number</span>
+                <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600"
+                       placeholder="Enter phone number">
+            </label>
+            <label class="flex flex-col gap-2 ">
+                <span class="after:content-['*'] after:ml-1 after:text-red-500">Country</span>
+                <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600 "
+                       placeholder="Enter your country">
+            </label>
+            <section class="flex flex-col gap-5 md:flex-row ">
+                <label class="flex flex-col gap-2 md:max-w-52.5  ">
+                    City
+                    <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600" placeholder="Enter city">
+                </label>
+                <label class="flex flex-col gap-2 md:max-w-52.5 ">
+                    State
+                    <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600" placeholder="Enter state">
+                </label>
+                <label class=" flex flex-col gap-2 md:max-w-52.5 ">
+                    ZIP Code
+                    <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600"
+                           placeholder="Enter ZIP Code">
+                </label>
+            </section>
+        </form>
+    </section>
+
+    <section class="flex flex-col gap-10 md:max-w-132 md:grow xl:pt-10">
+        <section class="flex flex-col gap-6">
+            <h2 class="font-bold text-xl leading-none">
+                Review your cart
+            </h2>
+            <section class="flex flex-col gap-6">
+                <figure class="flex gap-4">
+                    <section class="border border-neutral-300 rounded-lg">
+                        <img src="/assets/images/sofa.png" alt="sofa" class="w-full h-full rounded-lg ">
+                    </section>
+                    <section class="flex flex-col">
+                        <section class="flex flex-col gap-2 grow">
+                            <section class="font-medium text-base leading-none">
+                                DuoComfort Sofa Premium
+                            </section>
+                            <section class="font-normal text-sm leading-none text-neutral-500">
+                                1x
+                            </section>
+                        </section>
+                        <section class="font-bold text-base leading-none ">
+                            $20.00
+                        </section>
+                    </section>
+                </figure>
+                <figure class="flex gap-4">
+                    <section class="border border-neutral-300 rounded-lg">
+                        <img src="/assets/images/desk.png" alt="desk" class="w-full h-full rounded-lg ">
+                    </section>
+                    <section class="flex flex-col">
+                        <section class=" flex flex-col gap-2 grow">
+                            <section class="font-medium text-base leading-none">
+                                IronOne Desk
+                            </section>
+                            <section class="font-normal text-sm leading-none text-neutral-500">
+                                1x
+                            </section>
+                        </section>
+                        <section class="font-bold text-base leading-none ">
+                            $25.00
+                        </section>
+                    </section>
+                </figure>
+            </section>
+        </section>
+
+        <section class="flex flex-col gap-10">
+            <section class="flex flex-col gap-4">
+                <figure class="flex justify-between">
+                    <span class="font-normal text-sm text-neutral-600">
+                        Subtotal
+                    </span>
+                    <span class="font-bold text-sm ">
+                        $45.00
+                    </span>
+                </figure>
+                <figure class="flex justify-between">
+                    <span class="font-normal text-sm text-neutral-600">
+                        Shipping
+                    </span>
+                    <span class="font-bold text-sm ">
+                        $5.00
+                    </span>
+                </figure>
+                <figure class="flex justify-between">
+                    <span class="font-normal text-sm text-neutral-600">
+                        Discount
+                    </span>
+                    <span class="font-bold text-sm ">
+                       -$10.00
+                    </span>
+                </figure>
+                <figure class="flex justify-between">
+                    <span class="font-bold text-base ">
+                        Total
+                    </span>
+                    <span class="font-bold text-base ">
+                        $40.00
+                    </span>
+                </figure>
+            </section>
+            <button class="w-full px-2 py-4 rounded-lg bg-main-700
+                            font-bold text-base leading-none text-white
+                            hover:bg-hover-700" type="button">
+                Pay Now
+            </button>
+        </section>
+
+
+    </section>
+</main>
+
+<footer class="py-5 bg-white">
+    <section class="text-center text-xs/[4] font-medium text-neutral-500">
+        © 2025 Furniture, Inc. All Rights Reserved
+    </section>
+</footer>
+</body>
+</html>
