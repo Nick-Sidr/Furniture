@@ -29,6 +29,8 @@
     --color-main-700: rgba(65, 91, 231, 1);
     --color-main-200: rgba(65, 91, 231, 0.06);
     --color-stroke-700: rgba(219, 221, 227, 1);
+    --color-stroke-600: rgba(129, 142, 161, 1);
     --color-bg-200: rgba(249, 249, 251, 1);
     --color-hover-700: rgba(47, 69, 185, 1);
+    --color-star-500: rgba(226, 55, 16, 1);
 }

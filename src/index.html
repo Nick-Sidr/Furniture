@@ -5,7 +5,7 @@
     <title>Furniture</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body class="box-border font-[Helvetica]">
+<body class="flex flex-col min-h-screen box-border font-[Helvetica]">
 <header class="flex flex-col gap-3 bg-white p-5 md:flex-row
 md:justify-between md:items-center
 xl:px-20">
@@ -27,7 +27,7 @@ xl:px-20">
                 Cart
             </section>
         </figure>
-        <figure class=" block w-2 h-px bg-[#DBDDE3] md:w-12 "> &nbsp;</figure>
+        <figure class=" block w-2 h-px bg-stroke-700 md:w-12 "> &nbsp;</figure>
         <figure class="flex items-center justify-between gap-2">
             <section class="group rounded-full p-1.5 bg-main-200 border border-stroke-700 hover:bg-main-700 transition-colors duration-200 ">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="group-hover:hidden">
@@ -42,7 +42,7 @@ xl:px-20">
                 Review
             </section>
         </figure>
-        <figure class=" block w-2 h-px bg-[#DBDDE3] md:w-12"> &nbsp;</figure>
+        <figure class=" block w-2 h-px bg-stroke-700 md:w-12"> &nbsp;</figure>
         <figure class="flex items-center justify-between gap-2">
             <section class="flex items-center justify-center w-8 h-8 rounded-full bg-main-700 text-white text-sm font-bold leading-none">
                 3
@@ -54,9 +54,10 @@ xl:px-20">
     </section>
 </header>
 
-<main class="flex flex-col gap-10 px-5 pt-10 pb-31 bg-bg-200
+<main class="flex flex-col grow gap-10 px-5 pt-10 pb-31 bg-bg-200
 md:pt-13.5 md:pl-3.75 md:pb-12.5
-xl:flex-row xl:items-center xl:gap-20 xl:pt-10 xl:px-20 xl:pb-16">
+xl:flex-row xl:items-center xl:gap-20 xl:pt-10 xl:px-20 xl:pb-16
+2xl:justify-center ">
     <section class="flex flex-col gap-7 max-w-2xl">
         <h2 class="font-bold text-[32px] leading-none">
             Checkout
@@ -64,44 +65,44 @@ xl:flex-row xl:items-center xl:gap-20 xl:pt-10 xl:px-20 xl:pb-16">
         <section class="font-bold text-xl leading-none">Shipping Information</section>
         <form action="#" class="flex flex-col gap-5 font-medium text-base leading-none xl:gap-6">
             <label class="flex flex-col gap-2 ">
-                <span class="after:content-['*'] after:ml-1 after:text-red-500">Full name</span>
-                <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
-                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600"
+                <span class="after:content-['*'] after:ml-1 after:text-star-500">Full name</span>
+                <input type="text" class="px-4 pt-4 pb-5 border border-stroke-700 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-stroke-600"
                        placeholder="Enter full name">
             </label>
             <label class=" flex flex-col gap-2">
-                <span class="after:content-['*'] after:ml-1 after:text-red-500">Email address</span>
-                <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
-                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600"
+                <span class="after:content-['*'] after:ml-1 after:text-star-500">Email address</span>
+                <input type="text" class="px-4 pt-4 pb-5 border border-stroke-700 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-stroke-600"
                        placeholder="Enter email address">
             </label>
             <label class="flex flex-col gap-2 ">
-                <span class="after:content-['*'] after:ml-1 after:text-red-500">Phone number</span>
-                <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
-                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600"
+                <span class="after:content-['*'] after:ml-1 after:text-star-500">Phone number</span>
+                <input type="text" class="px-4 pt-4 pb-5 border border-stroke-700 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-stroke-600"
                        placeholder="Enter phone number">
             </label>
             <label class="flex flex-col gap-2 ">
-                <span class="after:content-['*'] after:ml-1 after:text-red-500">Country</span>
-                <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
-                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600 "
+                <span class="after:content-['*'] after:ml-1 after:text-star-500">Country</span>
+                <input type="text" class="px-4 pt-4 pb-5 border border-stroke-700 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-stroke-600 "
                        placeholder="Enter your country">
             </label>
             <section class="flex flex-col gap-5 md:flex-row ">
                 <label class="flex flex-col gap-2 md:max-w-52.5  ">
                     City
-                    <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
-                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600" placeholder="Enter city">
+                    <input type="text" class="px-4 pt-4 pb-5 border border-stroke-700 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-stroke-600" placeholder="Enter city">
                 </label>
                 <label class="flex flex-col gap-2 md:max-w-52.5 ">
                     State
-                    <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
-                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600" placeholder="Enter state">
+                    <input type="text" class="px-4 pt-4 pb-5 border border-stroke-700 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-stroke-600" placeholder="Enter state">
                 </label>
                 <label class=" flex flex-col gap-2 md:max-w-52.5 ">
                     ZIP Code
-                    <input type="text" class="px-4 pt-4 pb-5 border border-neutral-400 rounded-lg
-                placeholder:font-normal placeholder:text-base placeholder:text-neutral-600"
+                    <input type="text" class="px-4 pt-4 pb-5 border border-stroke-700 rounded-lg
+                placeholder:font-normal placeholder:text-base placeholder:text-stroke-600"
                            placeholder="Enter ZIP Code">
                 </label>
             </section>
@@ -199,7 +200,7 @@ xl:flex-row xl:items-center xl:gap-20 xl:pt-10 xl:px-20 xl:pb-16">
     </section>
 </main>
 
-<footer class="py-5 bg-white">
+<footer class=" py-5 bg-white">
     <section class="text-center text-xs/[4] font-medium text-neutral-500">
         © 2025 Furniture, Inc. All Rights Reserved
     </section>
